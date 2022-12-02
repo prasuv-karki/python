@@ -6,7 +6,6 @@ def checkExistence():
     else:
         file = open("info.txt", 'w')
         file.close()
-        
         def appendNew():
             file = open("info.txt", 'a')
 

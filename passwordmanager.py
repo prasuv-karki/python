@@ -13,7 +13,7 @@ while True:
         name=input('Enter name to search info:')
         
         for x in f:
-            temp_name=x.split(' :_: ')[0]  
+            temp_name=x.split(' :_: ')[0] 
             if name==temp_name:
                 grade=x.split(' :_: ')[1]
                 age=x.split(' :_: ',' :_: ')[2]
