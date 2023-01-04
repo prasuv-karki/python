@@ -6,7 +6,7 @@ while True:
         grade= input("Enter grade:")
         age=input("Enter age:")
         
-        string=f' :_: {name} :_: {grade} :_: {age}\n'
+        string=f' _ {name} _ {grade} _ {age}\n'
         f.write(string)
     elif choice==2:
         f=open("students.txt","r")
